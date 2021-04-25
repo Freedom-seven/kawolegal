@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KAWOLEGAL WEBSITE/startups</title>
+	<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
+	<style>
+/*navbar */
+.navbar-home {
+	background-color: #310C0C;
+	border: none;
+	border-radius: 0px;
+
+}
+
+.brand-image > img {
+	height: 60px;
+}
+
+.nav-button {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-home .nav-button > li > a {
+    color: #e62e00;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-home .nav-button > .actives > a, .navbar-home .nav-button > .actives > a:hover, .navbar-home .nav-button > .actives > a:focus {
+    color: #e62e00;
+    background-color: inherit;
+    border: 2px solid #D14233;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-home .nav-button > li > a:hover {
+	border: 2px solid #D14233;
+	color: #e62e00;
+}
+
+/* media */
+.search > span >button {
+	background-color: #337AB7;
+	padding-top: 16px 12px;
+	color: #fff;
+}
+
+.search > span >button:hover {
+	background-color: #005c99;
+	color: #fff;
+}
+
+.media-head {
+	font-size: 20px;
+	color: #337AB7;
+}
+
+.media-head:hover {
+	color: #D14233;
+	text-decoration: underline;
+}
+
+.object {
+	width: 100px;
+	height: 10vh;
+	margin-right: 40px;
+	top: 40px;
+	border: 1px solid #e6e6e6;
+	margin-bottom: 50px;
+}
+
+.media-container {
+	margin: 60px 100px;
+}
+
+
+/*footer */
+.footer {
+	background-color: #310C0C;
+	margin-top: 30px;
+}
+
+.footer-content > p {
+	font-size: 15px;
+	padding-top: 15px;
+	color: #fff;
+	float: left;
+}
+
+.footer-content > img {
+	display: inline-flex;
+	height: 20px;
+	padding-left: 15px;
+	float: right;
+	margin-top: 15px;
+}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-home">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand brand-image" href="#"><img src="Images/kawo-legal-logo.png"></a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse nav-button" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right nav-button">
+		        <li class="active actives"><span class="sr-only">(current)</span><a href="index.html">Home</a></li>
+		        <li><a href="startups.hmtl">All Startups</a></li>
+		      	<li><a href="register.html">Register</a></li>
+		        <li><a href="login.html">Login</a></li>
+		        </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<div class="container">
+			<div class="input-group search">
+		      <input type="text" class="form-control" placeholder="Search Startup by name or industry">
+		      <span class="input-group-btn">
+		        <button class="btn btn-default" type="button"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span> search</button>
+		      </span>
+		    </div>
+
+			<div class="media media-container">
+			  <div class="media-left media-middle ">
+			    <a href="#">
+			      <img class="media-object object" src="Images/tuta.jpeg" alt="tutahub" class="img-responsive">
+			    </a>
+			  </div>
+			  <div class="media-body content">
+			    <h4 class="media-heading media-head">tutahub</h4>
+			    <p>a website for tutorials</p>
+			    <button type="submit" class="btn btn-default register"> See full details </button>
+			    <hr>
+			  </div>
+			</div>
+			<div class="media media-container">
+			  <div class="media-left media-middle">
+			    <a href="#">
+			      <img class="media-object object" src="Images/and.jpeg" alt="Anditer" width="100" height="70vh" class="img-responsive">
+			    </a>
+			  </div>
+			  <div class="media-body content">
+			    <h4 class="media-heading media-head">Anditer</h4>
+			    <p>Anditer is a tech blog</p>
+			    <button type="submit" class="btn btn-default register"> See full details </button>
+			    <hr>
+			  </div>
+			</div>
+			<div class="media media-container">
+			  <div class="media-left media-middle">
+			    <a href="#">
+			      <img class="media-object object" src="Images/think.png" alt="Think and Zoom" class="img-responsive">
+			    </a>
+			  </div>
+			  <div class="media-body content">
+			    <h4 class="media-heading media-head">Think and Zoom</h4>
+			    <p>Providing solutions for the visually impaired, such as mind-controlled zooming, and wearable controlled zooming.</p>
+			    <button type="submit" class="btn btn-default register"> See full details </button>
+			    <hr>
+			  </div>
+			</div>
+			<div class="media media-container">
+			  <div class="media-left media-middle">
+			    <a href="#">
+			      <img class="media-object object" src="Images/slate.png" alt="Slatecube" class="img-responsive">
+			    </a>
+			  </div>
+			  <div class="media-body content">
+			    <h4 class="media-heading media-head">Slatecube</h4>
+			    <p>Slatecube helps job seekers develop job-relevant skills, gain work experience, and land well paying jobs through<br> world-class up-skilling courses and virtual internships.</p>
+			    <button type="submit" class="btn btn-default register"> See full details </button>
+			    <hr>
+			  </div>
+			</div>
+			<div class="media media-container">
+			  <div class="media-left media-middle">
+			    <a href="#">
+			      <img class="media-object object" src="Images/sleek.png" alt="Sleekjob Academy" class="img-responsive">
+			    </a>
+			  </div>
+			  <div class="media-body content">
+			    <h4 class="media-heading media-head">Sleekjob Academy</h4>
+			    <p>Trains world class software developers in Ghana and matches them to employment opportunities</p>
+			    <button type="submit" class="btn btn-default register"> See full details </button>
+			    <hr>
+			  </div>
+			</div>
+		</div>
+
+		<div class="footer">
+		<div class="container footer-content">
+			<p>&copy 2017 KawoLegal. All Rights Reserved</p>
+				<img src="Images/insta.webp">
+				<img src="Images/inkedin1.webp">
+				<img src="Images/social.webp">
+				<img src="Images/face1.webp">
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
